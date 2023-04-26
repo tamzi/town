@@ -14,3 +14,8 @@ dependencyResolutionManagement {
 }
 rootProject.name = ("town")
 include(":app")
+include(":events")
+include(":service")
+include(":transport")
+include(":culture")
+include(":economy")

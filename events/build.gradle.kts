@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.wakanda.app"
+    namespace = "com.wakanda.events"
     compileSdk = 33
 
     defaultConfig {
-        applicationId= "com.wakanda.app"
+        applicationId = "com.wakanda.events"
         minSdk = 26
         targetSdk = 33
         versionCode = 1
@@ -24,8 +24,8 @@ android {
         getByName("release") {
             isMinifyEnabled = false
             proguardFiles(
-                    getDefaultProguardFile("proguard-android-optimize.txt"),
-                    "proguard-rules.pro"
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro"
             )
         }
     }

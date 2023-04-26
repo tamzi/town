@@ -1,3 +1,3 @@
 # town
 [WIP]
-Large project android template 
+opinionated Large project android template 

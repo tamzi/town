@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.wakanda.app"
+    namespace = "com.tamzi.service"
     compileSdk = 33
 
     defaultConfig {
-        applicationId= "com.wakanda.app"
+        applicationId = "com.tamzi.service"
         minSdk = 26
         targetSdk = 33
         versionCode = 1
@@ -24,8 +24,8 @@ android {
         getByName("release") {
             isMinifyEnabled = false
             proguardFiles(
-                    getDefaultProguardFile("proguard-android-optimize.txt"),
-                    "proguard-rules.pro"
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro"
             )
         }
     }
